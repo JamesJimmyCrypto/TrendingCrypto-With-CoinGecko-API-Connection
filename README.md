@@ -1,1 +1,1 @@
-# TrendingCrypto
+# Trending Crypto

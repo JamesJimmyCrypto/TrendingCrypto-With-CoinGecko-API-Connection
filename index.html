@@ -24,7 +24,7 @@
         <div class="w3-center">
             <h4>Active Cryptocurrencies</h4>
             <h2></h2>
-            <h1 id="activeCryptocurrencies" class="w3-xxxlarge"><i class="fa fa-refresh fa-spin"></i></h1>
+            <h1 id="active-cryptocurrencies" class="w3-xxxlarge"><i class="fa fa-refresh fa-spin"></i></h1>
         </div>
     </header>
 
@@ -36,8 +36,9 @@
                 <p w3-class="w3-large">Top-7 trending coins on CoinGecko as searched by users in the last 24 hours
                     (Ordered by most popular first)</p>
             </div>
-            <div class="w3-responsive w3-card-4">
-                <table class="w3-table w3-black w3-centered w3-hoverable"> 
+            <div class="w3-responsive w3-card-4 w3-round">
+                <!-- <table class="w3-table w3-black w3-centered w3-hoverable">  -->
+                <table class="w3-table w3-black w3-hoverable">
                     <thead>
                         <tr class="w3-theme">
                             <th>Coin</th>
@@ -46,37 +47,37 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                         </tr>
-                        <tr class="w3-hover-light-gray">
+                        <tr class="trending-row w3-hover-light-gray">
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
                             <td><i class="fa fa-refresh fa-spin"></i></td>
@@ -85,42 +86,53 @@
                 </table>
             </div>
         </div>
-    <div class="w3-padding-16"></div>
+        <div class="w3-padding-16"></div>
 
-    <!-- Footer -->
-    <footer class="w3-container w3-black w3-padding-16">
-        <h3>Trending Crypto</h3>
-        <p>Powered by <a href="https://www.coingecko.com/en/api/documentation" target="_blank">CoinGecko API</a></p>
-        <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right"></div>
-        <p>View the source code on <a href="https://github.com/harecs/TrendingCrypto"
-                class="w3-btn w3-light-gray w3-round-xxlarge w3-padding-small w3-hover-theme" target="_blank"><i
-                    class="fa fa-github"></i> GitHub</a></p>
-        <hr>
-        <button onclick="document.getElementById('id01').style.display='block'"
-            class="w3-btn w3-light-gray w3-round-xxlarge w3-padding-small w3-hover-theme">⚠️ IMPORTANT DISCLAIMER:
-            (click to view)</button>
-        <div id="id01" class="w3-modal">
-            <div class="w3-modal-content">
-                <header class="w3-container w3-theme">
-                    <span onclick="document.getElementById('id01').style.display='none'"
-                        class="w3-btn w3-hover-black w3-display-topright">&times;</span>
-                    <h2>⚠️ IMPORTANT DISCLAIMER</h2>
-                </header>
-                <div class="w3-container w3-theme-dark">
-                    <p>All content provided herein our website, hyperlinked sites, associated applications, forums,
-                        blogs, social media accounts and other platforms (“Site”) is for your general information
-                        only, procured from third party sources. We make no warranties of any kind in relation to
-                        our content, including but not limited to accuracy and updatedness. No part of the content
-                        that we provide constitutes financial advice, legal advice or any other form of advice meant
-                        for your specific reliance for any purpose. Any use or reliance on our content is solely at
-                        your own risk and discretion. You should conduct your own research, review, analyse and
-                        verify our content before relying on them. Trading is a highly risky activity that can lead
-                        to major losses, please therefore consult your financial advisor before making any decision.
-                        No content on our Site is meant to be a solicitation or offer.</p>
+        <!-- Footer -->
+        <footer class="w3-container w3-black w3-padding-16">
+            <h3>Trending Crypto</h3>
+            <p>Powered by <a href="https://www.coingecko.com/en/api/documentation" target="_blank">CoinGecko API</a></p>
+            <div style="position:relative;bottom:55px;" class="w3-tooltip w3-right"></div>
+            <p>View the source code on <a href="https://github.com/harecs/TrendingCrypto"
+                    class="w3-btn w3-light-gray w3-round-xxlarge w3-padding-small w3-hover-theme" target="_blank"><i
+                        class="fa fa-github"></i> GitHub</a></p>
+            <hr>
+            <div id="disclaimer">
+                <button id="disclaimer-button"
+                    class="w3-btn w3-light-gray w3-round-xxlarge w3-padding-small w3-hover-theme">⚠️ IMPORTANT
+                    DISCLAIMER:
+                    (click to view)</button>
+                <div id="disclaimer-modal" class="w3-modal">
+                    <div class="w3-modal-content">
+                        <header class="w3-container w3-theme">
+                            <span id="disclaimer-close-button"
+                                class="w3-btn w3-hover-black w3-display-topright">&times;</span>
+                            <h2>⚠️ IMPORTANT DISCLAIMER</h2>
+                        </header>
+                        <div class="w3-container w3-theme-dark">
+                            <p>All content provided herein our website, hyperlinked sites, associated applications,
+                                forums,
+                                blogs, social media accounts and other platforms (“Site”) is for your general
+                                information
+                                only, procured from third party sources. We make no warranties of any kind in relation
+                                to
+                                our content, including but not limited to accuracy and updatedness. No part of the
+                                content
+                                that we provide constitutes financial advice, legal advice or any other form of advice
+                                meant
+                                for your specific reliance for any purpose. Any use or reliance on our content is solely
+                                at
+                                your own risk and discretion. You should conduct your own research, review, analyse and
+                                verify our content before relying on them. Trading is a highly risky activity that can
+                                lead
+                                to major losses, please therefore consult your financial advisor before making any
+                                decision.
+                                No content on our Site is meant to be a solicitation or offer.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 
 </html>

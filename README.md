@@ -10,6 +10,7 @@ Simple app for viewing the trending cryptocurrencies on CoinGecko. I am using th
 ## Used things in the project
 
  - [W3.CSS](https://www.w3schools.com/w3css/default.asp)
+ - [CoinGecko API](https://www.coingecko.com/en/api/documentation)
  - [Font Awesome](https://fontawesome.com)
  - [Twemoji](https://twemoji.twitter.com)
  - [readme.so](https://readme.so)

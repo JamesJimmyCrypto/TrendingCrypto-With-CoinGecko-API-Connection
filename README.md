@@ -6,7 +6,7 @@ Simple app for viewing the trending cryptocurrencies on CoinGecko. I am using th
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/harecs/TrendingCrypto/blob/main/LICENSE)
 
-![](https://repository-images.githubusercontent.com/624015255/1a112fb3-1532-46f2-ad75-b1a181aac40c)
+![](https://i.ibb.co/FVdFmhG/Screenshot-2023-04-18-at-12-12-24.png)
 ## Used things in the project
 
  - [W3.CSS](https://www.w3schools.com/w3css/default.asp)

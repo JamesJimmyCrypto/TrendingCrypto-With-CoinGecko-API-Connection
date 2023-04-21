@@ -15,13 +15,6 @@ Simple app for viewing the trending cryptocurrencies on CoinGecko. I am using th
  - [Twemoji](https://twemoji.twitter.com)
  - [readme.so](https://readme.so)
 
-
-## Roadmap
-
-- Add wishlist functionality
-- Add functionality for changing the preffered VS currency
-
-
 ## Author
 
 - [@harecs](https://www.github.com/harecs)
